@@ -1,6 +1,8 @@
 # Google Plus
 ## What is it?
 A faster version of Google, ~17,481x quicker.
+## How to use?
+Use the websites preset in `src/websites.json` or run `scraper/main.py` to make your own websites.json website database. Compile the C++ code, then put it in the folder where the source code is, so it can access the "src" directory with your website database, then run a search. It not only gives you your website results, but how fast it took, compared to Google.
 ## Why is it faster?
 * Limited Dataset: The program operates on a relatively small dataset loaded from a local file. Google, on the other hand, searches through an index of the entire web, which is significantly larger and more complex.
 
